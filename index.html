@@ -9,7 +9,6 @@
 		<meta name="keywords" content="development, web design">
 		<meta name="description" content="We are a website design and development company, specializing on the UI, or look and feel of the site.">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 		<!-- MIGRATE AND MINIFY STYLE INTO NEW FILE -->
 		<style type="text/css"> 
 			html {
@@ -21,12 +20,19 @@
 				font-size: 1.3em;
 				color: #a1a1a1;
 				margin: 0px;
+				padding-top;
 			}
 
+
 			header {
-				color: #fff;
-				background-color: #000;
+				color: #FF5252;
+				background-color: #fff;
 				margin: 0px;
+				padding: 15px;
+				position: fixed;
+				opacity: 0.95;
+				width: 100%;
+				border-bottom: solid 2.5px #FF5252;
 			}
 
 			.brand {
@@ -34,6 +40,7 @@
 				padding-top: 10px;
 				text-align: left;
 				display: block;
+				font-size: 28px;
 			}
 
 			.menu {
@@ -50,20 +57,20 @@
 				display: inline;
 			}
 
+			.content-banner { padding: 2em; background-image: url('img/gplaypattern.png');}
+
 			.content-area-1 {
 				background-color: #fff;
-				color: #000;
+				color: #FF5252;
 				text-align: right;
 				padding: 1.5em;
-				border-bottom: medium solid #a1a;
 			}
 
 			.content-area-2 {
-				background-color: #000;
+				background-color: #45DED4;
 				color: #fff;
 				text-align: left;
 				padding: 1.5em;
-				border-bottom: medium solid #a11;
 			}
 
 			.content-area-3 {
@@ -72,26 +79,54 @@
 			.content-area-4 {
 			}
 
+			.content-inline { display: inline; padding: 1em; }
+
+			.text-center { text-align: center; }
+
 			footer {
-				background-image: url('img/argyle_@2X.png');
+				background-image: url('img/carbon_fibre_v2_@2X.png');
+				padding: 10px;
 
 			}
-
-			.brand:visited { color: #fff; text-decoration: none; }
-			.brand:hover { text-decoration: none; color: #fff; text-shadow: 0px 0px 5px #fff; }
-			.brand:active { text-decoration: none; }
-			.brand:link { text-decoration: none; }
-
-			.menu:visited { }
-			.menu:hover { }
-			.menu:active { }
-			.menu:link { }
 
 			::selection { background-color: #000; color: #fff; }
 		</style>
 	</head>
 
 	<body>
-We are currently working on finishing up our site!
+				<!-- Begin Header -->
+		<header>
+			<div class="menu">
+				<div class="brand text-center">RonocKit CSS Framework</div>
+			</div>
+		</header>
+		<!-- End Header -->
+
+<div class="content">
+		<div class="content-banner text-center">
+			<div class="content-inline"><br /><br /><br />Currently under development. Check back later!</div>
+		</div>
+
+		<div class="content-area-1">
+			<p>
+			<h1>Normalize</h1>
+			<p>We are working towards getting a normalize.css released soon and later releasing navigation items, buttons and so forth.</p>
+		</div>
+
+		<div class="content-area-2">
+			<h1>About us</h1>
+			<p>Started by ronoc5518, our plan is to release a responsive CSS framework and later on a full web framework to make website development easier.</p>
+		</div>
+
+		<div class="content-area-1">
+			<h1>Want to help?</h1>
+			<p>You can join us as an official team member, or just contribute on GitHub!</p>
+		</div>
+
+		<div class="content-area-2">
+			<h1>First Release</h1>
+			<p>We do not have a set time frame for the release of the first version, but it will likely be in late February.</p>
+		</div>
+</div>
 	</body>
 </html>
