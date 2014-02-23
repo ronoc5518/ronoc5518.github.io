@@ -1,0 +1,78 @@
+			html {
+				margin: 0px;
+				font-family: Myriad Pro;
+			}
+
+			body {
+				font-size: 1.3em;
+				color: #a1a1a1;
+				margin: 0px;
+				padding-top;
+				background-image: url('img/bg.png');
+			}
+
+
+			header {
+				color: #fff;
+				background-color: #007BFF;
+				margin: 0px;
+				padding: 15px;
+				position: fixed;
+				width: 100%;
+				border-bottom: solid 3px #005EC2;
+			}
+
+			.brand {
+				margin-left: 0em;
+				margin-right: 0em;
+				padding-top: 10px;
+				text-align: center;
+				display: block;
+				font-size: 28px;
+			}
+
+			.navbar {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.navbar-first {
+				padding: 0px;
+			}
+
+			.navbar-item {
+				padding-left: 10px;
+			}
+
+
+			.content-banner { padding: 2em; background-image: url('img/gplaypattern.png');}
+
+			.content-area-1 {
+				background-color: #fff;
+				color: #FF5252;
+				text-align: right;
+				padding: 1.5em;
+			}
+
+			.content-area-2 {
+				background-color: #45DED4;
+				color: #fff;
+				text-align: left;
+				padding: 1.5em;
+			}
+
+			.content-area-3 {
+			}
+
+			.content-area-4 {
+			}
+
+			.content-inline { display: inline; padding: 1em; }
+
+			.text-center { text-align: center!important; }
+
+			footer {
+				background-image: url('img/carbon_fibre_v2_@2X.png');
+				padding: 10px;
+
+			}

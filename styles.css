@@ -1,0 +1,85 @@
+			body {
+				margin: 0px;
+				padding: 0px;
+				font-family: sans-serif;
+			}
+
+			/* Navbar and Header */
+
+			header {
+				background: #00795f;
+				width: 100%;
+				padding: 40px 0px;
+				color: white;
+				text-align: center;
+				font-size: 2em;
+			}
+
+			nav ul {
+				background-color: #000;
+				overflow: hidden;
+				color: white;
+				padding: 0px;
+				text-align: center;
+				margin: 0px;
+				-webkit-transition: max-height 0.4s;
+				-ms-transition: max-height 0.4s;
+				-moz-transition: max-height 0.4s;
+				-o-transition: max-height 0.4s;
+				transition: max-height 0.4s;
+			}
+
+			nav ul li {
+				display: inline-block;
+				padding: 20px;
+			}
+
+			nav ul li:hover {
+				background-color: #383838;
+			}
+
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+
+			section {
+				line-height: 1.5em;
+				font-size: 0.9em;
+				padding: 40px;
+				width: 85%;
+				text-align: center;
+				margin: 0px auto;
+			}
+
+			.toggle {
+				width: 100%;
+				background-color: #005c48;
+				text-align: left;
+				box-sizing: border-box;
+				padding: 15px 10px;
+				cursor: pointer;
+				color: white;
+				display: none;
+			}
+
+		@media screen and (max-width: 600px){
+
+			nav ul {
+				max-height: 0px;
+			}
+
+			nav ul li {
+				box-sizing: border-box;
+				width: 100%;
+				padding: 15px;
+			}
+
+			.toggle {
+				display: block;
+			}
+
+			.show {
+				max-height: 21em;
+			}
+		}
