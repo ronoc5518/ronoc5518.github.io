@@ -15,8 +15,6 @@
 				font-size: 2em;
 			}
 
-			.active:hover { text-decoration: none !important;  }
-
 			nav ul {
 				background-color: #000;
 				overflow: hidden;
